@@ -1,0 +1,42 @@
+.todo_form{
+    background-color: rgb(241, 238, 231);
+    max-width: 600px;
+    border-radius: 10px;
+    margin: 20px auto;
+    justify-content: center;
+}
+h1{
+    text-align: center;
+    font-weight: bold;
+    margin-top: 20px;
+    padding-top: 20px;
+}
+button
+{
+padding: 10px;
+border-radius: 10px;
+border: none;
+background-color: rgb(247, 71, 71);
+}
+input{
+    width: 70%;
+    padding: 10px;
+    border: 10px;
+    margin-left: 30px;margin-right: 10px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    outline: none;
+}
+#todo_items{
+    list-style-type: none;
+}
+#todo_items li{
+    display:flex;
+    justify-content: space-between;
+    margin-right: 45px;
+}
+.delete-btn{
+    margin-right: 30px;
+    background-color: rgb(29, 236, 29);
+    margin-top: 10px;
+}
